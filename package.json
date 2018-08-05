@@ -1,0 +1,10 @@
+{
+  "name": "ethereum-contracts-library",
+  "version": "1.0.0",
+  "description": "Simple Ethereum contracts showcases",
+  "author": "Juraj Husar",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.24"
+  }
+}
