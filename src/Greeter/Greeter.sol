@@ -28,7 +28,7 @@ contract Greeter is Mortal {
     string greeting;
 
     /* Store how many times was greet() called */
-    int calledTimes;
+    uint calledTimes;
 
     /* This runs when the contract is executed */
     constructor(string _greeting) public {
@@ -44,7 +44,7 @@ contract Greeter is Mortal {
         return greeting;
     }
 
-    function howManyGreets() public view returns (int) {
+    function howManyGreets() public view returns (uint) {
         return calledTimes;
     }
 }
